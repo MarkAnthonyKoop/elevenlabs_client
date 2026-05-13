@@ -1,17 +1,17 @@
-[build-system]
-requires = ["setuptools>=68"]
-build-backend = "setuptools.build_meta"
+        [build-system]
+        requires = ["setuptools>=68"]
+        build-backend = "setuptools.build_meta"
 
-[project]
-name = "elevenlabs_client"
-version = "0.1.0"
-description = "ElevenLabs HTTP client: text -> MP3 voiceover. Pure-requests, no official SDK."
-requires-python = ">=3.10"
-dependencies = [
+        [project]
+        name = "elevenlabs_client"
+        version = "0.1.0"
+        description = "ElevenLabs HTTP client: text -> MP3 voiceover."
+        requires-python = ">=3.10"
+        dependencies = [
     "requests",
 ]
 
-[tool.setuptools]
+        [tool.setuptools]
 packages = ["elevenlabs_client"]
 
 [tool.setuptools.package-dir]
